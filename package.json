@@ -2,7 +2,7 @@
   "name": "semantic-release-jira-notes",
   "version": "4.0.0",
   "engines": {
-    "node": ">=18"
+    "node": ">=20.8.1"
   },
   "description": "Semantic Release plugin to add JIRA issues link to the release notes",
   "main": "src/index.js",
@@ -19,7 +19,7 @@
   ],
   "dependencies": {
     "@semantic-release/error": "4.0.0",
-    "@semantic-release/release-notes-generator": "^13.0.0",
+    "@semantic-release/release-notes-generator": "^14.0.1",
     "aggregate-error": "^5.0.0"
   },
   "scripts": {
